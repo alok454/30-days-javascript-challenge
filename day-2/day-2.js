@@ -79,33 +79,3 @@ console.log( !condition1)  // true
 let ternaryNumber = -15;
 let result = ternaryNumber > 0 ? 'Positive Number' : 'Negative Number';
 console.log(result)  // Negative Number
-
-
-
-// Feature Task
-
-// 1.
-let numberOne = 55;
-let numberTwo = 10;
-console.log(numberOne + numberTwo);  // 65
-console.log(numberOne - numberTwo);  // 45
-console.log(numberOne * numberTwo);  // 550
-console.log(numberOne / numberTwo);  // 5.5
-
-// 2.
-let comparisonOne = 50;
-let comparisonTwo = 60;
-console.log(comparisonOne > comparisonTwo)  // false
-console.log(comparisonOne < comparisonTwo)  // true
-console.log(comparisonOne >= comparisonTwo)  // false
-console.log(comparisonOne <= comparisonTwo)  // true
-console.log(comparisonOne == comparisonTwo)  // false
-console.log(comparisonOne === comparisonTwo)  // false
-
-console.log(comparisonOne > comparisonTwo && comparisonOne >= comparisonTwo)  // false
-console.log(comparisonOne > comparisonTwo || comparisonOne >= comparisonTwo)  // false
-console.log(!(comparisonOne > comparisonTwo))  // true
-
-// 3.
-const ternaryNum = 29;
-console.log(ternaryNum > 0 ? 'Positive' : 'Negative');  // Positive

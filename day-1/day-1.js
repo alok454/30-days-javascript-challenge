@@ -48,41 +48,5 @@ console.log(reAssignWithLet)  // alpha beta
 const reAssignWithCosnt = 'i am const variable'
 console.log(reAssignWithCosnt)
 
-// reAssignWithCosnt = 'now re assigning the const variable'  // Throwing Type Error: cannot reassign in constant variable
-// console.log(reAssignWithCosnt)
-
-
-// Feature Request
-
-// Question 1:
-let anotherNumber = 112;
-let anotherString = 'Javascript';
-let anotherBoolean = false;
-let anotherObject = {name: 'javascript', releaseDate: 1995};
-let x;
-let anotherBigInt = BigInt(123456789101657676)
-let anotherSymbol = Symbol('123@abc')
-let y = null;
-
-console.log(anotherNumber, typeof anotherNumber)
-console.log(anotherString, typeof anotherString)
-console.log(anotherBoolean, typeof anotherBoolean)
-console.log(anotherObject, typeof anotherObject)
-console.log(x, typeof x)
-console.log(anotherBigInt, typeof anotherBigInt)
-console.log(anotherSymbol, typeof anotherSymbol)
-console.log(y, typeof y)
-
-// Question 2:
-
-// Reassigning let variable
-let number = 234532;
-console.log(number)  // 234532
-number = 'string';
-console.log(number)  // string
-
-// Reassigning const variable
-const constVariable = 34325;
-console.log(constVariable)  // 34325
-constVariable = 2432;
-console.log(constVariable)  // TypeError : Cannot Reassign to a const variable
+reAssignWithCosnt = 'now re assigning the const variable'  // Throwing Type Error: cannot reassign in constant variable
+console.log(reAssignWithCosnt)
